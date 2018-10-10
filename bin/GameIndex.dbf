@@ -6420,6 +6420,10 @@ Name   = Burnout 2 - Point of Impact [Demo]
 Region = PAL-Unk
 vuRoundMode = 1 // Bright lights in cars.
 ---------------------------------------------
+Serial = SLED-51225
+Name   = Rayman 3 - Hoodlum Havoc [Demo]
+Region = PAL-E
+---------------------------------------------
 Serial = SLED-51281
 Name   = Haven - Call of the King [Demo]
 Region = PAL-E
