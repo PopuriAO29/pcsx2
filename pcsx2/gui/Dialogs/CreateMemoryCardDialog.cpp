@@ -252,6 +252,10 @@ void Dialogs::CreateMemoryCardDialog::CreateControls()
 		.	SetToolTip(_t("Use at your own risk.  Erratic memory card behavior is possible (though unlikely)."))
 		.	SetInt(64),
 
+		RadioPanelItem(_("128 MB"), _("Very Low Compability warning: Yes it's very big, but may not work with many games."))
+		.	SetToolTip(_t("Use at your own risk.  Erratic memory card behavior is possible (though unlikely)."))
+		.	SetInt(128),
+
 		RadioPanelItem(_("Folder [Recommended]"), _("Store memory card contents in the host filesystem instead of a file."))
 		.	SetToolTip(_t("Dynamically allocate and store memory card contents in a folder.\n" 
 						  "Only exposes the save files for the running game, rather than the whole memory card.\n"
